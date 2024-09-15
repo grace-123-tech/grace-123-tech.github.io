@@ -1,3 +1,12 @@
+#main-header {
+    height: 13vw;
+}
+
+div.container {
+    justify-content: space-between;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -7,7 +16,7 @@ body {
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One" , sans-serif ;
+    font-family: "Mister Grape", cursive;
     width: 16%;
     text-shadow: 
     -1px -1px 0px black,  /* Top-left */
@@ -26,49 +35,63 @@ ul {
     margin: 0px; 
 }
 
+#sub-heading{
+    text-align: left;
+    margin-left: 30px;
+}
+
+
 body > header {
-    background-color: orange;
+    background-color: rgb(210, 203, 203);
     color: white;
     display: flex;
     height: 12vh;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 
 #nav-ul {
     display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 
-#nav-ul > li {
-    padding: 8px;
-    margin: 16px;
-}
 
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
+article > header {
+    font-size: 26px;
+    margin-left: 100px;
 }
 
 .navbutton {
     color: white;
     text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
+    padding: 10px; 
+    border: 2px solid white;
+    border-radius:10%;
 }
 
 body > main article {
-    width: 60%;
+    width: 70%;
     margin: auto;
+}
+
+body > article > main {
+    margin: auto;
+    width: 80%
+    
+
 }
 
 #main-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
 }
 
 #main-content > div {
-    width: 70%;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -81,13 +104,10 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: rgb(210, 203, 203);
     display: flex;
 }  
 
-img {
-    border-radius: 50%;
-} 
 
 #footer-ul{
     display: flex;
@@ -101,4 +121,5 @@ img {
 #footer-ul > div > li > a{
     color: white;
     text-decoration: none;
+    font-family: "Mister Grape", cursive;
 }
